@@ -531,7 +531,7 @@ class PasswordWidget(QWidget):
         for value in values:
             if value is None:
                 continue
-            if not isinstance(value, int) or not 6 <= value <= 72:
+            if not isinstance(value, int) or not 4 <= value <= 72:
                 return False
             if previous is not None and value > previous:
                 return False
