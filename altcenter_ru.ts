@@ -138,80 +138,105 @@
 <context>
     <name>ChangePassword</name>
     <message>
-        <location filename="plugins/change_password.py" line="34"/>
+        <location filename="plugins/change_password.py" line="37"/>
         <source>Change password</source>
         <translation>Смена пароля</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="40"/>
+        <location filename="plugins/change_password.py" line="43"/>
         <source>Users:</source>
         <translation>Пользователи:</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="108"/>
+        <location filename="plugins/change_password.py" line="111"/>
         <source>Active user: -</source>
         <translation>Выбранный пользователь: -</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="56"/>
+        <location filename="plugins/change_password.py" line="59"/>
         <source>Enter new password</source>
         <translation>Введите новый пароль</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="59"/>
+        <location filename="plugins/change_password.py" line="62"/>
         <source>Copy</source>
         <translation>Копировать</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="139"/>
+        <location filename="plugins/change_password.py" line="247"/>
         <source>Show</source>
         <translation>Показать</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="61"/>
+        <location filename="plugins/change_password.py" line="64"/>
         <source>Generate</source>
         <translation>Сгенерировать</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="62"/>
+        <location filename="plugins/change_password.py" line="65"/>
         <source>Change</source>
         <translation>Сменить</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="113"/>
+        <location filename="plugins/change_password.py" line="116"/>
         <source>Active user: </source>
         <translation>Выбранный пользователь: </translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="136"/>
+        <location filename="plugins/change_password.py" line="244"/>
         <source>Hide</source>
         <translation>Скрыть</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="176"/>
+        <location filename="plugins/change_password.py" line="303"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="171"/>
+        <location filename="plugins/change_password.py" line="298"/>
         <source>Failed to set password.</source>
         <translation>Не удалось установить пароль.</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="174"/>
+        <location filename="plugins/change_password.py" line="301"/>
         <source>Done</source>
         <translation>Готово</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="174"/>
+        <location filename="plugins/change_password.py" line="301"/>
         <source>The password has been changed</source>
         <translation>Пароль успешно изменён</translation>
+    </message>
+    <message>
+        <location filename="plugins/change_password.py" line="161"/>
+        <source>Unable to read or parse the passwdqc configuration.</source>
+        <translation>Не удалось прочитать или разобрать конфигурацию passwdqc.</translation>
+    </message>
+    <message>
+        <location filename="plugins/change_password.py" line="278"/>
+        <source>Unable to verify the password against the active password policy.</source>
+        <translation>Не удалось проверить пароль на соответствие действующей парольной политике.</translation>
+    </message>
+    <message>
+        <location filename="plugins/change_password.py" line="214"/>
+        <source>Unable to generate a password that meets the active policy.</source>
+        <translation>Не удалось сгенерировать пароль, соответствующий действующей парольной политике.</translation>
+    </message>
+    <message>
+        <location filename="plugins/change_password.py" line="271"/>
+        <source>Password policy</source>
+        <translation>Парольная политика</translation>
+    </message>
+    <message>
+        <location filename="plugins/change_password.py" line="271"/>
+        <source>Password does not meet password policy requirements.</source>
+        <translation>Пароль не соответствует требованиям парольной политики.</translation>
     </message>
 </context>
 <context>
     <name>ChangePasswordPlugin</name>
     <message>
-        <location filename="plugins/change_password.py" line="186"/>
+        <location filename="plugins/change_password.py" line="311"/>
         <source>Change password</source>
         <translation>Смена пароля</translation>
     </message>
@@ -1978,7 +2003,7 @@ Please try again later</source>
 <context>
     <name>PluginFSTEC</name>
     <message>
-        <location filename="plugins/fstec.py" line="269"/>
+        <location filename="plugins/fstec.py" line="268"/>
         <source>FSTEC recommendations</source>
         <translation>Рекомендации ФСТЭК</translation>
     </message>
@@ -2020,7 +2045,7 @@ Please try again later</source>
 <context>
     <name>PluginPolicies</name>
     <message>
-        <location filename="plugins/policies.py" line="745"/>
+        <location filename="plugins/policies.py" line="743"/>
         <source>Policy</source>
         <translation>Политики</translation>
     </message>
@@ -2028,7 +2053,7 @@ Please try again later</source>
 <context>
     <name>PluginReport</name>
     <message>
-        <location filename="plugins/report.py" line="157"/>
+        <location filename="plugins/report.py" line="156"/>
         <source>Report</source>
         <translation>Отчёт</translation>
     </message>
@@ -2036,7 +2061,7 @@ Please try again later</source>
 <context>
     <name>PluginSSHSettings</name>
     <message>
-        <location filename="plugins/ssh_settings.py" line="716"/>
+        <location filename="plugins/ssh_settings.py" line="714"/>
         <source>SSH settings</source>
         <translation>Настройка SSH</translation>
     </message>
