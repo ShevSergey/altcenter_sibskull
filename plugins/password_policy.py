@@ -528,15 +528,19 @@ class PasswordWidget(QWidget):
         if not isinstance(values, (tuple, list)) or len(values) != 5:
             return False
         previous = None
+        has_enabled = False
         for value in values:
             if value is None:
-                continue
-            if not isinstance(value, int) or not 4 <= value <= 72:
+                current = 2147483647
+            else:
+                if not isinstance(value, int) or not 4 <= value <= 72:
+                    return False
+                current = value
+                has_enabled = True
+            if previous is not None and current > previous:
                 return False
-            if previous is not None and value > previous:
-                return False
-            previous = value
-        return previous is not None
+            previous = current
+        return has_enabled
 
     def _passwdqc_profile(self, text):
         options = {
@@ -575,7 +579,7 @@ class PasswordWidget(QWidget):
                     else:
                         return None
                 values = tuple(values)
-                if not self._valid_passwdqc_min(values):
+                if any(value is not None and not 4 <= value <= 72 for value in values):
                     return None
                 options["min"] = values
             else:
