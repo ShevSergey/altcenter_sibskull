@@ -138,97 +138,97 @@
 <context>
     <name>ChangePassword</name>
     <message>
-        <location filename="plugins/change_password.py" line="37"/>
+        <location filename="plugins/change_password.py" line="42"/>
         <source>Change password</source>
         <translation>Смена пароля</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="43"/>
+        <location filename="plugins/change_password.py" line="48"/>
         <source>Users:</source>
         <translation>Пользователи:</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="111"/>
+        <location filename="plugins/change_password.py" line="116"/>
         <source>Active user: -</source>
         <translation>Выбранный пользователь: -</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="59"/>
+        <location filename="plugins/change_password.py" line="64"/>
         <source>Enter new password</source>
         <translation>Введите новый пароль</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="62"/>
+        <location filename="plugins/change_password.py" line="67"/>
         <source>Copy</source>
         <translation>Копировать</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="247"/>
+        <location filename="plugins/change_password.py" line="559"/>
         <source>Show</source>
         <translation>Показать</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="64"/>
+        <location filename="plugins/change_password.py" line="69"/>
         <source>Generate</source>
         <translation>Сгенерировать</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="65"/>
+        <location filename="plugins/change_password.py" line="70"/>
         <source>Change</source>
         <translation>Сменить</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="116"/>
+        <location filename="plugins/change_password.py" line="121"/>
         <source>Active user: </source>
         <translation>Выбранный пользователь: </translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="244"/>
+        <location filename="plugins/change_password.py" line="556"/>
         <source>Hide</source>
         <translation>Скрыть</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="303"/>
+        <location filename="plugins/change_password.py" line="640"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="298"/>
+        <location filename="plugins/change_password.py" line="635"/>
         <source>Failed to set password.</source>
         <translation>Не удалось установить пароль.</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="301"/>
+        <location filename="plugins/change_password.py" line="638"/>
         <source>Done</source>
         <translation>Готово</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="301"/>
+        <location filename="plugins/change_password.py" line="638"/>
         <source>The password has been changed</source>
         <translation>Пароль успешно изменён</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="161"/>
+        <location filename="plugins/change_password.py" line="166"/>
         <source>Unable to read or parse the passwdqc configuration.</source>
         <translation>Не удалось прочитать или разобрать конфигурацию passwdqc.</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="278"/>
+        <location filename="plugins/change_password.py" line="613"/>
         <source>Unable to verify the password against the active password policy.</source>
         <translation>Не удалось проверить пароль на соответствие действующей парольной политике.</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="214"/>
+        <location filename="plugins/change_password.py" line="516"/>
         <source>Unable to generate a password that meets the active policy.</source>
         <translation>Не удалось сгенерировать пароль, соответствующий действующей парольной политике.</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="271"/>
+        <location filename="plugins/change_password.py" line="606"/>
         <source>Password policy</source>
         <translation>Парольная политика</translation>
     </message>
     <message>
-        <location filename="plugins/change_password.py" line="271"/>
+        <location filename="plugins/change_password.py" line="606"/>
         <source>Password does not meet password policy requirements.</source>
         <translation>Пароль не соответствует требованиям парольной политики.</translation>
     </message>
@@ -236,7 +236,7 @@
 <context>
     <name>ChangePasswordPlugin</name>
     <message>
-        <location filename="plugins/change_password.py" line="311"/>
+        <location filename="plugins/change_password.py" line="649"/>
         <source>Change password</source>
         <translation>Смена пароля</translation>
     </message>
@@ -1581,7 +1581,7 @@ Please try again later</source>
 <context>
     <name>PasswordPlugin</name>
     <message>
-        <location filename="plugins/password_policy.py" line="1524"/>
+        <location filename="plugins/password_policy.py" line="1531"/>
         <source>Password parameters</source>
         <translation>Параметры паролей</translation>
     </message>
@@ -1594,7 +1594,7 @@ Please try again later</source>
         <translation type="obsolete">Установить/включить pam_pwquality</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="868"/>
+        <location filename="plugins/password_policy.py" line="872"/>
         <source>Active group: Not selected</source>
         <translation>Активная группа: не выбрана</translation>
     </message>
@@ -1664,7 +1664,7 @@ Please try again later</source>
         <translation>Запретить повторное использование последних N паролей</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1372"/>
+        <location filename="plugins/password_policy.py" line="1379"/>
         <source>Apply</source>
         <translation>Применить</translation>
     </message>
@@ -1674,37 +1674,37 @@ Please try again later</source>
         <translation>Сбросить</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="873"/>
+        <location filename="plugins/password_policy.py" line="877"/>
         <source>All groups</source>
         <translation>Все группы</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="700"/>
+        <location filename="plugins/password_policy.py" line="704"/>
         <source>The existing PAM configuration is not supported for safe modification.</source>
         <translation>Текущая конфигурация PAM не поддерживает безопасное изменение.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="713"/>
+        <location filename="plugins/password_policy.py" line="717"/>
         <source>The passwdqc configuration has an unsupported format.</source>
         <translation>Конфигурация passwdqc имеет неподдерживаемый формат.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="715"/>
+        <location filename="plugins/password_policy.py" line="719"/>
         <source>The active PAM password configuration was not recognized. No system files will be changed.</source>
         <translation>Не удалось распознать действующую конфигурацию паролей PAM. Системные файлы не будут изменены.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="721"/>
+        <location filename="plugins/password_policy.py" line="725"/>
         <source>Active PAM files could not be safely verified.</source>
         <translation>Не удалось безопасно проверить действующие файлы PAM.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="873"/>
+        <location filename="plugins/password_policy.py" line="877"/>
         <source>Active group: </source>
         <translation>Активная группа: </translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="914"/>
+        <location filename="plugins/password_policy.py" line="918"/>
         <source>Active module: pam_pwquality (ALT Protection profile)</source>
         <translation>Активный модуль: pam_pwquality (профиль ALT Protection)</translation>
     </message>
@@ -1714,117 +1714,117 @@ Please try again later</source>
         <translation type="obsolete">Активный модуль: pam_passwdqc (только минимальная длина)</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="918"/>
+        <location filename="plugins/password_policy.py" line="922"/>
         <source>Active module: unknown</source>
         <translation>Активный модуль: неизвестен</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="923"/>
+        <location filename="plugins/password_policy.py" line="927"/>
         <source>Separate group policies require an active pam_pwquality profile.</source>
         <translation>Для настройки отдельных групп требуется активный профиль pam_pwquality.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="925"/>
+        <location filename="plugins/password_policy.py" line="929"/>
         <source>pam_passwdqc currently uses enforce=none. Password strength may not be enforced.</source>
         <translation>Сейчас pam_passwdqc использует enforce=none. Требования к сложности пароля могут не применяться.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="927"/>
+        <location filename="plugins/password_policy.py" line="931"/>
         <source>When users belong to several groups, the first matching group in alphabetical order takes precedence.</source>
         <translation>Если пользователь состоит в нескольких группах, действует политика первой подходящей группы в алфавитном порядке.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="967"/>
+        <location filename="plugins/password_policy.py" line="973"/>
         <source>Invalid minimum password length.</source>
         <translation>Некорректная минимальная длина пароля.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="970"/>
+        <location filename="plugins/password_policy.py" line="976"/>
         <source>Minimum changed characters exceeds minimum length.</source>
         <translation>Минимальное количество изменённых символов превышает минимальную длину пароля.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="972"/>
+        <location filename="plugins/password_policy.py" line="978"/>
         <source>Sum of required character classes exceeds minimum length.</source>
         <translation>Сумма обязательных символов разных категорий превышает минимальную длину пароля.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1366"/>
+        <location filename="plugins/password_policy.py" line="1373"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1281"/>
+        <location filename="plugins/password_policy.py" line="1288"/>
         <source>Could not verify system groups.</source>
         <translation>Не удалось проверить системные группы.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1287"/>
+        <location filename="plugins/password_policy.py" line="1294"/>
         <source>Invalid group name or missing system group.</source>
         <translation>Некорректное имя группы или группа отсутствует в системе.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1291"/>
+        <location filename="plugins/password_policy.py" line="1298"/>
         <source>Too many group policies.</source>
         <translation>Слишком много групповых политик.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1294"/>
+        <location filename="plugins/password_policy.py" line="1301"/>
         <source>Required PAM module pam_succeed_if.so is missing.</source>
         <translation>Отсутствует необходимый модуль PAM pam_succeed_if.so.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1307"/>
+        <location filename="plugins/password_policy.py" line="1314"/>
         <source>Parameter validation</source>
         <translation>Проверка параметров</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1366"/>
+        <location filename="plugins/password_policy.py" line="1373"/>
         <source>Failed to prepare safe changes.</source>
         <translation>Не удалось подготовить безопасные изменения.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1346"/>
+        <location filename="plugins/password_policy.py" line="1353"/>
         <source>The prepared PAM profile did not pass validation.</source>
         <translation>Подготовленный профиль PAM не прошёл проверку.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1350"/>
+        <location filename="plugins/password_policy.py" line="1357"/>
         <source>The prepared PAM profile did not match the requested settings.</source>
         <translation>Подготовленный профиль PAM не соответствует заданным настройкам.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1353"/>
+        <location filename="plugins/password_policy.py" line="1360"/>
         <source>Group routing validation failed.</source>
         <translation>Не удалось проверить применение политик по группам.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1369"/>
+        <location filename="plugins/password_policy.py" line="1376"/>
         <source>Apply password policy changes? A backup of the configuration will be created.</source>
         <translation>Применить изменения парольной политики? Будет создана резервная копия конфигурации.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1371"/>
+        <location filename="plugins/password_policy.py" line="1378"/>
         <source>For users in several groups, the first matching group in alphabetical order takes precedence.</source>
         <translation>Для пользователей, состоящих в нескольких группах, приоритет имеет первая подходящая группа в алфавитном порядке.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1380"/>
+        <location filename="plugins/password_policy.py" line="1387"/>
         <source>Applying settings...</source>
         <translation>Применение настроек...</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1443"/>
+        <location filename="plugins/password_policy.py" line="1450"/>
         <source>Failed to start the privileged process.</source>
         <translation>Не удалось запустить процесс с повышенными привилегиями.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1491"/>
+        <location filename="plugins/password_policy.py" line="1498"/>
         <source>Settings applied.</source>
         <translation>Настройки применены.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1494"/>
+        <location filename="plugins/password_policy.py" line="1501"/>
         <source>Failed to apply settings. No changes were confirmed.</source>
         <translation>Не удалось применить настройки. Успешное изменение конфигурации не подтверждено.</translation>
     </message>
@@ -1834,22 +1834,22 @@ Please try again later</source>
         <translation type="obsolete">pam_pwquality</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1452"/>
+        <location filename="plugins/password_policy.py" line="1459"/>
         <source>Active PAM chain changed externally</source>
         <translation>Цепочка PAM была изменена извне</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1454"/>
+        <location filename="plugins/password_policy.py" line="1461"/>
         <source>Configuration changed externally</source>
         <translation>Конфигурация была изменена извне</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1456"/>
+        <location filename="plugins/password_policy.py" line="1463"/>
         <source>Rollback failed. Backup: {backup}</source>
         <translation>Не удалось откатить изменения. Резервная копия: {backup}</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="1477"/>
+        <location filename="plugins/password_policy.py" line="1484"/>
         <source>Backup: {backup} (up to 5 dated copies per file in {directory})</source>
         <translation>Резервная копия: {backup} (до 5 копий с датой для каждого файла в {directory})</translation>
     </message>
@@ -1889,22 +1889,22 @@ Please try again later</source>
         <translation>Режим применения политики</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="916"/>
+        <location filename="plugins/password_policy.py" line="920"/>
         <source>Active module: pam_passwdqc</source>
         <translation>Активный модуль: pam_passwdqc</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="954"/>
+        <location filename="plugins/password_policy.py" line="958"/>
         <source>N0-N4 thresholds must be between 6 and 72 characters and must not increase from N0 to N4.</source>
         <translation>Пороговые значения N0–N4 должны составлять от 6 до 72 символов и не должны возрастать от N0 к N4.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="956"/>
+        <location filename="plugins/password_policy.py" line="960"/>
         <source>Maximum password length must be between 8 and 1024.</source>
         <translation>Максимальная длина пароля должна быть от 8 до 1024 символов.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="964"/>
+        <location filename="plugins/password_policy.py" line="970"/>
         <source>Invalid password enforcement mode.</source>
         <translation>Недопустимый режим применения политики паролей.</translation>
     </message>
@@ -1959,17 +1959,17 @@ Please try again later</source>
         <translation>Количество попыток ввода пароля</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="958"/>
+        <location filename="plugins/password_policy.py" line="964"/>
         <source>Passphrase word count must be between 0 and 1024.</source>
         <translation>Количество слов в парольной фразе должно быть от 0 до 1024.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="960"/>
+        <location filename="plugins/password_policy.py" line="966"/>
         <source>Personal information match threshold must be between 0 and 1024 characters.</source>
         <translation>Порог совпадения с данными учётной записи должен быть от 0 до 1024 символов.</translation>
     </message>
     <message>
-        <location filename="plugins/password_policy.py" line="962"/>
+        <location filename="plugins/password_policy.py" line="968"/>
         <source>Password input attempts must be between 1 and 10.</source>
         <translation>Количество попыток ввода пароля должно быть от 1 до 10.</translation>
     </message>
@@ -1977,6 +1977,11 @@ Please try again later</source>
         <location filename="plugins/password_policy.py" line="191"/>
         <source>Personal information match threshold</source>
         <translation>Порог совпадения с данными учётной записи</translation>
+    </message>
+    <message>
+        <location filename="plugins/password_policy.py" line="962"/>
+        <source>Maximum password length cannot be less than the N0-N4 thresholds.</source>
+        <translation>Максимальная длина пароля не может быть меньше пороговых значений N0–N4.</translation>
     </message>
 </context>
 <context>
