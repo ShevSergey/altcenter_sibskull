@@ -958,6 +958,8 @@ class PasswordWidget(QWidget):
                 return False, self.tr("N0-N4 thresholds must be between 6 and 72 characters and must not increase from N0 to N4.")
             if not 8 <= state.get("passwdqc_max", 0) <= 1024:
                 return False, self.tr("Maximum password length must be between 8 and 1024.")
+            if any(value is not None and value > state["passwdqc_max"] for value in state["passwdqc_min"]):
+                return False, self.tr("Maximum password length cannot be less than the N0-N4 thresholds.")
             if not 0 <= state.get("passwdqc_passphrase", -1) <= 1024:
                 return False, self.tr("Passphrase word count must be between 0 and 1024.")
             if not 0 <= state.get("passwdqc_match", -1) <= 1024:
@@ -1098,6 +1100,7 @@ class PasswordWidget(QWidget):
         match_length = state.get("passwdqc_match", -1)
         if (not self._valid_passwdqc_min(values) or
                 not 8 <= state.get("passwdqc_max", 0) <= 1024 or
+                any(value is not None and value > state["passwdqc_max"] for value in values) or
                 not 0 <= passphrase <= 1024 or
                 not 0 <= match_length <= 1024 or
                 not 1 <= retry <= 10):
